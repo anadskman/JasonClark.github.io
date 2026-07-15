@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jason Clark's Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a9d16b892f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section class="hero" id="hero">
+            <div class="hero-title">
+                <h1>Jason Clark</h1>
+            </div>
+            <div class="hero-subtitle">
+                <h2>Building the future of technology</h2>
+            </div>
+            <div class="carousel-wrapper">
+                <button class="carousel-btn prev-btn"><i class="fa-solid fa-caret-left" style="color: rgb(40, 126, 211);"></i></button>
+                <div class="featured-projects-container">
+
+                    <div class="featured-project">
+                        <img src="images/surfnas.jpeg" alt="SurfNAS Image">
+                        <div class="featured-project-info">
+                            <h2>SurfNAS</h2>
+                            <div class="featured-project-tags">
+                                <ul>
+                                    <li>Raspberry Pi</li>
+                                    <li>NAS</li>
+                                    <li>Linux</li>
+                                    <li>3D Printing</li>
+                                    <li>Self Hosting</li>
+                                </ul>
+                            </div>
+                            <p>Home Server built from scratch using a RPI and a fully custom 3D Printed case</p>
+                        </div>
+                        <h3>Interested?</h3>
+                        <div class="view-github">
+                            <a class="view-github-btn" href="https://github.com/anadskman/SurfNAS">View GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="featured-project">
+                        <img src="images/stopwatch.jpeg" alt="Desktop Stopwatch Image">
+                        <div class="featured-project-info">
+                            <h2>Desktop Stopwatch</h2>
+                            <div class="featured-project-tags">
+                                <ul>
+                                    <li>ESP32-C3</li>
+                                    <li>Embedded C++</li>
+                                    <li>Electronics</li>
+                                    <li>PCB</li>
+                                    <li>3D Printing</li>
+                                </ul>
+                            </div>
+                            <p>Small desktop stopwatch with: 4-digit 7-segment display ESP32-C3 button: Start / Pause Hold 2 Seconds - Reset</p>
+                        </div>
+                        <h3>Interested?</h3>
+                        <div class="view-github">
+                            <a class="view-github-btn" href="https://github.com/anadskman/desktop-stopwatch">View GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="featured-project">
+                        <img src="images/jukebox.jpeg" alt="Jukebox Image">
+                        <div class="featured-project-info">
+                            <h2>Jukebox</h2>
+                            <div class="featured-project-tags">
+                                <ul>
+                                    <li>ESP32-C3</li>
+                                    <li>RFID</li>
+                                    <li>DFPlayer Mini</li>
+                                    <li>Electronics</li>
+                                    <li>3D Printing</li>
+                                </ul>
+                            </div>
+                            <p>Minecraft style jukebox, uses a RFID reader and card(the disk). Then plays music through a DFPlayer. This is powered by a esp32-c3 supermini</p>
+                        </div>
+                        <h3>Interested?</h3>
+                        <div class="view-github">
+                            <a class="view-github-btn" href="https://github.com/anadskman/Jasons-Jukebox">View GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="featured-project">
+                        <img src="images/tracker.png" alt="Project Tracker Image">
+                        <div class="featured-project-info">
+                            <h2>Project Tracker</h2>
+                            <div class="featured-project-tags">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>Github Pages</li>
+                                </ul>
+                            </div>
+                            <p>Website designed to track my projects and display them. It uses a json file to save and load each project</p>
+                        </div>
+                        <h3>Interested?</h3>
+                        <div class="view-github">
+                            <a class="view-github-btn" href="https://github.com/anadskman/ProjectTracker">View GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="featured-project">
+                        <img src="images/trackify.png" alt="Trackify Image">
+                        <div class="featured-project-info">
+                            <h2>Trackify</h2>
+                            <div class="featured-project-tags">
+                                <ul>
+                                    <li>C#</li>
+                                    <li>WPF</li>
+                                    <li>Windows</li>
+                                    <li>Desktop App</li>
+                                    <li>Music API</li>
+                                </ul>
+                            </div>
+                            <p>Lightweight Windows desktop overlay that shows what music is currently playing, including song info and genre</p>
+                        </div>
+                        <h3>Interested?</h3>
+                        <div class="view-github">
+                            <a class="view-github-btn" href="https://github.com/anadskman/Trackify">View GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="featured-project">
+                        <img src="images/fakeos.png" alt="FakeOS Image">
+                        <div class="featured-project-info">
+                            <h2>FakeOS</h2>
+                            <div class="featured-project-tags">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>UI Design</li>
+                                    <li>Web App</li>
+                                </ul>
+                            </div>
+                            <p>FakeOS is a browser based, on macOS inspired desktop environment built with HTML, CSS, and JavaScript.</p>
+                        </div>
+                        <h3>Interested?</h3>
+                        <div class="view-github">
+                            <a class="view-github-btn" href="https://github.com/anadskman/FakeOS">View GitHub</a>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-btn next-btn"><i class="fa-solid fa-caret-right" style="color: rgb(40, 126, 211);"></i></button>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>About My Work</h2>
+            <p>I enjoy designing and building projects that combine software, electronics, and creative problem solving. My projects range from web applications and desktop software to embedded systems, custom electronics, and 3D printed designs.</p>
+            <p>I like taking ideas from concept to completion by designing, prototyping, testing, and improving each project along the way. Whether it is building a custom device with a microcontroller, creating a useful application, or developing a website, I focus on learning new skills and creating practical solutions.</p>
+            <p>I am constantly experimenting with new technologies and using each project as an opportunity to improve my programming, engineering, and design skills.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skills-group">
+                    <h3>Programming/Web</h3>    
+                    <div class="my-skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>C#</li>
+                            <li>SQL</li>
+                            <li>GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills-group">
+                    <h3>Frameworks/Tools</h3>    
+                    <div class="my-skills">
+                        <ul>
+                            <li>VS Code</li>
+                            <li>Arduino IDE</li>
+                            <li>Microsoft Office</li>
+                            <li>Google Workspace</li>
+                            <li>GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills-group">
+                    <h3>Hardware/Electronics</h3>    
+                    <div class="my-skills">
+                        <ul>
+                            <li>Arduino</li>
+                            <li>Raspberry Pi</li>
+                            <li>PCB Design</li>
+                            <li>Soldering</li>
+                            <li>Electronics Prototyping</li>
+                            <li>Circuit Design</li>
+                            <li>3D Printing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills-group">
+                    <h3>Design</h3>    
+                    <div class="my-skills">
+                        <ul>
+                            <li>UI Design</li>
+                            <li>Responsive Web Design</li>
+                            <li>Wireframing</li>
+                            <li>CAD Design</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills-group">
+                    <h3>Languages</h3>    
+                    <div class="my-skills">
+                        <ul>
+                            <li>English (Native)</li>
+                            <li>German (Basic)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills-group">
+                    <h3>Practical Skills</h3>    
+                    <div class="my-skills">
+                        <ul>
+                            <li>Problem Solving</li>
+                            <li>Project Planning</li>
+                            <li>Technical Documentation</li>
+                            <li>Hardware Troubleshooting</li>
+                            <li>Quick Learner</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Get in Touch</h2>
+            <p>I am motivated, eager to learn, and looking forward to connecting about new projects and opportunities.</p>
+            <a href="mailto:ijasonclark@icloud.com" class="email-btn">ijasonclark@icloud.com</a>
+            <div class="contact-social-grid">
+                <a href="https://github.com/anadskman" target="_blank" rel="noopener" class="github-link">Github Profile</a>
+                <a href="assets/Jasons-cv.pdf" download="Jasons-cv.pdf" class="download-cv-btn">Download My CV (PDF)</a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <p>&copy; <span id="year"></span> Jason Clark. Built in HTML, CSS, & JavaScript.</p>
+                <a href="index.html" class="back-to-top">Back to top <i class="fa-solid fa-angles-up" style="color: rgb(63, 108, 152);"></i></a>
+            </div>
+        </footer>
+
+                
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const container = document.querySelector('.featured-projects-container');
+                const prevBtn = document.querySelector('.prev-btn');
+                const nextBtn = document.querySelector('.next-btn');
+
+                let isMoving = false;
+                const pendingQueue = [];
+                const MAX_QUEUE = 8; // avoid runaway queues
+                const TRANS_MS = 340; // matches CSS transition-medium (adjust if needed)
+
+                if (nextBtn && prevBtn && container) {
+                    nextBtn.addEventListener('click', () => {
+                        if (isMoving) {
+                            if (pendingQueue.length < MAX_QUEUE) pendingQueue.push('next');
+                        } else {
+                            handleNext();
+                        }
+                    });
+
+                    prevBtn.addEventListener('click', () => {
+                        if (isMoving) {
+                            if (pendingQueue.length < MAX_QUEUE) pendingQueue.push('prev');
+                        } else {
+                            handlePrev();
+                        }
+                    });
+                }
+
+                // Setup initial roles and compute per-card offsets so three cards are visible
+                function updateCardRoles() {
+                    const cards = Array.from(container.children);
+                    cards.forEach(c => {
+                        c.classList.remove('role-center','role-left','role-right','role-hidden-left','role-hidden-right');
+                        c.style.removeProperty('--tx');
+                        c.style.removeProperty('--scale');
+                    });
+                    if (!cards.length) return;
+
+                    const wrapper = container.closest('.carousel-wrapper') || container.parentElement;
+                    const wrapperRect = wrapper.getBoundingClientRect();
+                    const containerRect = container.getBoundingClientRect();
+                    const wrapperWidth = wrapperRect.width;
+
+                    const card = cards[0];
+                    const cardWidth = card.offsetWidth;
+                    const gap = parseFloat(getComputedStyle(container).gap) || parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--gap')) || 0;
+                    const fullStep = cardWidth + gap;
+
+                    // desired left position (in container coordinates) for the center card
+                    const desiredCenterLeft = wrapperWidth / 2 - cardWidth / 2;
+
+                    cards.forEach((c, i) => {
+                        const naturalLeft = c.offsetLeft;
+                        // place first three as left(0), center(1), right(2)
+                        const desiredLeft = desiredCenterLeft + (i - 1) * fullStep;
+                        const tx = desiredLeft - naturalLeft;
+                        c.style.setProperty('--tx', tx + 'px');
+
+                        if (i === 0) c.classList.add('role-left');
+                        else if (i === 1) c.classList.add('role-center');
+                        else if (i === 2) c.classList.add('role-right');
+                        else c.classList.add('role-hidden-right');
+
+                        // set scale variable for consistency
+                        if (i === 1) c.style.setProperty('--scale', '1.03');
+                        else c.style.setProperty('--scale', '0.98');
+                    });
+                }
+
+                if (container) {
+                    setTimeout(() => {
+                        updateCardRoles();
+                        container.classList.add('mounted');
+                    }, 80);
+                }
+
+                function handleNext() {
+                    if (isMoving) return;
+                    isMoving = true;
+
+                    const cards = Array.from(container.children);
+                    if (!cards.length) { isMoving = false; return; }
+
+                    const first = cards[0];
+                    const center = cards[1] || cards[0];
+                    const right = cards[2] || cards[1] || cards[0];
+                    const nextRight = cards[3] || cards[0];
+
+                    // compute fullStep from real sizes
+                    const cardWidth = first.offsetWidth;
+                    const gap = parseFloat(getComputedStyle(container).gap) || parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--gap')) || 0;
+                    const fullStep = cardWidth + gap;
+
+                    // prepare classes for opacity/z-index changes
+                    cards.forEach((c) => {
+                        c.classList.remove('role-center','role-left','role-right','role-hidden-left','role-hidden-right');
+                    });
+
+                    first.classList.add('role-hidden-left');
+                    center.classList.add('role-left');
+                    right.classList.add('role-center');
+                    nextRight.classList.add('role-right');
+
+                    // animate by shifting each card left by fullStep (via --tx)
+                    cards.forEach((c) => {
+                        const cur = parseFloat(getComputedStyle(c).getPropertyValue('--tx')) || 0;
+                        const nextTx = cur - fullStep;
+                        c.style.setProperty('--tx', nextTx + 'px');
+                    });
+
+                    // After animation finishes, move first to end and recalculate roles
+                    setTimeout(() => {
+                        // Disable transition to avoid flashing during DOM reorder
+                        cards.forEach(c => c.style.transition = 'none');
+                        
+                        container.appendChild(first);
+                        cards.forEach(c => c.classList.remove('role-center','role-left','role-right','role-hidden-left','role-hidden-right'));
+                        updateCardRoles();
+                        
+                        // Force reflow to apply new positions without animation
+                        void container.offsetHeight;
+                        
+                        // Re-enable transitions for next animation
+                        cards.forEach(c => c.style.transition = '');
+                        
+                        isMoving = false;
+                        const nextAction = pendingQueue.shift();
+                        if (nextAction === 'next') handleNext();
+                        else if (nextAction === 'prev') handlePrev();
+                    }, TRANS_MS + 30);
+                }
+
+                function handlePrev() {
+                    if (isMoving) return;
+                    isMoving = true;
+
+                    const cards = Array.from(container.children);
+                    if (!cards.length) { isMoving = false; return; }
+
+                    const last = cards[cards.length - 1];
+                    const left = cards[0];
+                    const center = cards[1] || cards[0];
+                    const beforeLast = cards[cards.length - 2] || last;
+
+                    const cardWidth = left.offsetWidth;
+                    const gap = parseFloat(getComputedStyle(container).gap) || parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--gap')) || 0;
+                    const fullStep = cardWidth + gap;
+
+                    // prepare classes
+                    cards.forEach((c) => {
+                        c.classList.remove('role-center','role-left','role-right','role-hidden-left','role-hidden-right');
+                    });
+
+                    beforeLast.classList.add('role-hidden-right');
+                    last.classList.add('role-left');
+                    left.classList.add('role-center');
+                    center.classList.add('role-right');
+
+                    // animate by shifting each card right by fullStep (via --tx)
+                    cards.forEach((c) => {
+                        const cur = parseFloat(getComputedStyle(c).getPropertyValue('--tx')) || 0;
+                        const nextTx = cur + fullStep;
+                        c.style.setProperty('--tx', nextTx + 'px');
+                    });
+
+                    setTimeout(() => {
+                        // Disable transition to avoid flashing during DOM reorder
+                        cards.forEach(c => c.style.transition = 'none');
+                        
+                        container.insertBefore(last, container.firstChild);
+                        // recalculate without removing --tx, so transition continues smoothly
+                        cards.forEach(c => c.classList.remove('role-center','role-left','role-right','role-hidden-left','role-hidden-right'));
+                        updateCardRoles();
+                        
+                        // Force reflow to apply new positions without animation
+                        void container.offsetHeight;
+                        
+                        // Re-enable transitions for next animation
+                        cards.forEach(c => c.style.transition = '');
+                        
+                        isMoving = false;
+                        const nextAction = pendingQueue.shift();
+                        if (nextAction === 'next') handleNext();
+                        else if (nextAction === 'prev') handlePrev();
+                    }, TRANS_MS + 30);
+                }
+
+                const backToTop = document.querySelector('.back-to-top');
+                if (backToTop) {
+                    backToTop.addEventListener('click', (event) => {
+                        event.preventDefault();
+                        const heroSection = document.querySelector('#hero');
+                        if (heroSection) {
+                            heroSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        } else {
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                        }
+                    });
+                }
+
+                const revealTargets = document.querySelectorAll('h1, h2, h3, p, a, .skills-group, .contact-social-grid, .hero-title, .hero-subtitle, .about, .skills, .contact, header nav');
+                revealTargets.forEach((el) => {
+                    if (!el.closest('footer')) {
+                        el.classList.add('reveal');
+                    }
+                });
+
+                const revealObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('reveal-visible');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    threshold: 0.16,
+                    rootMargin: '0px 0px -80px 0px',
+                });
+
+                document.querySelectorAll('.reveal').forEach((item) => revealObserver.observe(item));
+            });
+
+        </script>
+    </body>
+</html>
